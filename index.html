@@ -1,33 +1,33 @@
 <!DOCTYPE html>
+<html>
 
-<html lang="pt-br">
     <head>
-        <meta charset="UTF-8">
+        <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="css/reset.css">
-        <link rel="stylesheet" type="text/css" href="css/styles.css">
-        <link rel="stylesheet" type="text/css" href="css/main.css">
-        <link rel="stylesheet" type="text/css" href="css/header.css">
-        <title>Desafio TF</title>
+        <title>Panel</title> <!--Título do site-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico"> <!--Ícone do site-->
+        <link href="css/reset.css" rel="stylesheet"> <!--link CSS RESET-->
+        <link href="css/header.css" rel="stylesheet"> <!--link CSS HEADER-->
+        <link href="css/main.css" rel="stylesheet"> <!--link CSS MAIN-->
+        <link href="css/usuarios.css" rel="stylesheet">
     </head>
+
     <body>
         <header>
             <div class="cabecalho">
-                <nav>
-                    <a class="logo">PAINEL</a> <!--Nome do Painel-->
+                <nav class="menu">
+                    <a class="logo" href="#inicio">PAINEL</a> <!--Nome do Painel-->
                     <ul class="bar-list"> <!--Barra de navegação-->
-                        <li><a>Início</a></li>
+                        <li><a href="#inicio">Início</a></li>
                         <li><a>Sobre</a></li>
                         <li><a>Projetos</a></li>
-                        <li><a>Contato</a></li>
+                        <li><a href="#contact">Contato</a></li>
                     </ul>
                 </nav>
             </div>
         </header> <!--Cabeçalho-->
-
         <main>
-            <div class="main2">
+            <div class="main2" id="inicio">
                 <div class="main2-left">
                     <a class="frase"> CURSO ONLINE DE</a>
                     <h1 class="titulo">PHOTOSHOP</h1>
@@ -39,9 +39,29 @@
                 </div>
                 <img src="img/ps.png" class="img-main2">
             </div>
+        
         </main>
-
-        <footer>
-        </footer>
+        <main class="main3" id="contact">
+            <div class="integrantes">    
+                <div class="element-users">
+                        <img src="./img/1.jpeg" class="user-img">
+                        <div class="element-text">
+                            <h1 class="nome">Gabriel Vanz</h1>
+                            <p class="sobre">Técnico responsável</p>
+                        </div>
+                </div>
+                <div class="element-users">
+                    <img src="./img/1.jpeg" class="user-img">
+                    <div class="element-text">
+                        <h1 class="nome">Brener</h1>
+                        <p class="sobre">Técnico responsável</p>
+                    </div>
+            </div>
+            </div>
+        </main>
+        <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+        <script type="text/javascript" src="js/scroll.js"></script>
+    
     </body>
+
 </html>

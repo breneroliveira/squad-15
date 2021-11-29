@@ -39,3 +39,9 @@ p.paragrafo {
     margin: 70px 70px 0 -90px;
     height: 500px;
 }
+
+.main3 {
+        width: 100%;
+        display: flex;
+
+}

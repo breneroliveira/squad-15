@@ -20,7 +20,10 @@ nav {
     align-items: center;
     font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
     height: 12vh;
+    width: 100%;
     background: whitesmoke;
+    z-index: 100%;
+    position: fixed;
 }
 
 a.logo {
