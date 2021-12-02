@@ -1,0 +1,125 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    color: rgba(50, 50, 50, 0.815);
+}
+
+header {
+    background: #6726f2;
+    padding: 250px 0;
+    position: relative;
+    transition: 0.4s;
+    width: 100%;
+    margin: 0 auto;
+    box-shadow: -5px 5px 9px rgba(50, 50, 50, 0.637);
+}
+
+form {
+    text-align: center;
+}
+
+input {
+    border: none;
+    border-radius: 30px;
+    box-shadow: -1px 1px 5px rgba(50, 50, 50, 0.226);
+}
+
+button {
+    border: none;
+    border-radius: 30px;
+    box-shadow: -1px 1px 5px rgba(50, 50, 50, 0.226);
+    display: block;
+    margin: 10px auto;
+    padding: 10px 25px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.conteudo-principal {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.conteudo-principal li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    height: 47vh;
+    vertical-align: top;
+    margin: 0 1.5%;
+    margin-bottom: 30px;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 1px solid rgba(50, 50, 50, 0);
+    box-shadow: -5px/*direita*/ 5px/*baixo*/ 9px/*blur*/ rgba(50, 50, 50, 0.3);
+    /*-webkit-box-shadow: 12px 12px 9px 0px rgba(50, 50, 50, 0.3);
+    -moz-box-shadow: 12px 12px 9px 0px rgba(50, 50, 50, 0.3);
+    box-shadow: 12px 12px 9px 0px rgba(50, 50, 50, 0.3);*/
+    border-radius: 10px;
+}
+
+.conteudo-principal li:hover {
+    transition: 0.1s ease-in-out;
+    border: 1px solid rgba(50, 50, 50, 0.116);
+    box-shadow: -5px/*direita*/ 5px/*baixo*/ 9px/*blur*/ rgba(50, 50, 50, 0.055);
+}
+
+footer {
+    color: white;
+    background: #6929F2;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.div-header {
+    position: relative;
+    width: 900px;
+    margin: 0 auto;
+}
+
+.div-header a {
+    box-shadow: -5px 5px 9px rgba(50, 50, 50, 0.637);
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.div-header a:hover {
+    transition: 0.1s ease-in-out;
+    background-color: white;
+    color: #6929F2;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+main.formulario {
+    width: 60%;
+    height: 400px;
+    margin: 40px auto auto auto;    
+    background-color: aliceblue;
+    padding-top: 20px;
+}
+
+form input {
+    display: block;
+    margin: 15px auto;
+    padding: 10px 25px;
+}
