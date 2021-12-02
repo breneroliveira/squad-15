@@ -79,6 +79,18 @@ footer {
     margin: 0 auto;
 }
 
+.div-header a {
+    box-shadow: -5px 5px 9px rgba(50, 50, 50, 0.637);
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.div-header a:hover {
+    transition: 0.1s ease-in-out;
+    background-color: white;
+    color: #6929F2;
+}
+
 nav {
     position: absolute;
     top: 110px;
@@ -108,6 +120,6 @@ main.formulario {
 
 form input {
     display: block;
-    margin: 10px auto;
+    margin: 15px auto;
     padding: 10px 25px;
 }
