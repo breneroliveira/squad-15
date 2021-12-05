@@ -1,0 +1,71 @@
+.bg_video{
+	/*position: fixed;*/ 
+	right: 0; 
+	bottom: 0;
+	min-width: 100%; 
+	min-height: 100%;
+	width: auto; 
+	height: auto; 
+	z-index: -1000;
+	background: url(video.mp4) no-repeat;
+	background-size: cover; 
+}
+
+.textBox{
+    padding: auto;
+    width: 700px;
+    margin:10px auto;
+}
+
+.modulo {
+    margin:5px auto;
+    width: 600px;
+    color: black;
+    font-size: 30px;
+    text-align: left;
+    user-select: none;
+}
+
+.bar {
+    padding: 16px;
+    background-color:gainsboro;
+    display: flex;
+    border-radius: 10px;
+}
+
+.seta , .seta2 , .seta3 {
+    margin: auto;
+    width: 30px;
+    transform: rotate(0deg);
+    transition: 0.3s;
+}
+
+.seta.active , .seta2.active , .seta3.active{
+    transform: rotate(180deg);
+    transition: 0.3s;
+}
+
+.hiddenBar, .hiddenBar2 , .hiddenBar3{
+    max-height: 0;
+    pointer-events: none;
+    transition: max-height 1s ease-in-out;
+    margin: 0 auto;
+    box-sizing: border-box;
+    overflow:hidden;
+}
+
+.hiddenBar.active , .hiddenBar2.active , .hiddenBar3.active {
+    margin: 0 auto;
+    
+    box-sizing: border-box;
+    overflow:hidden;
+    max-height: 200px;
+    transition: max-height 1s ease-in-out;
+}
+
+.hiddenText {
+    width: 650px;
+    margin: 10px auto;
+    font-family: sans-serif;
+    text-align: left;
+}
