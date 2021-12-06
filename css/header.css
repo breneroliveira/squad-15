@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #23232e;
+}
+
+.cabecalho {
+    width: 100%;
+    margin: 0px auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+    height: 12vh;
+    width: 100%;
+    background: whitesmoke;
+    z-index: 100%;
+    position: fixed;
+}
+
+a.logo {
+    text-decoration: none;
+    color: red;
+    font-size: 150%;
+}
+
+nav a:hover {
+    opacity: 0.7;
+  } /*Transparência ao passar o cursor*/
+
+
+.bar-list li {
+    list-style: none;
+    display: inline;
+    margin-left: 20px;
+}
+
+.bar-list a {
+    color: red;
+    text-decoration: none;
+}
+
+
+
+

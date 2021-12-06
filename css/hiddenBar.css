@@ -1,0 +1,76 @@
+.textBox {
+    text-align: center;
+    /*padding: auto;*/
+    width: 700px;
+    /*margin: 10px auto;*/
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.modulo {
+    margin:5px auto;
+    width: 600px;
+    color: whitesmoke;
+    font-size: 20px;
+    text-align: left;
+    user-select: none;
+}
+
+.bar {
+    text-align: center;
+    padding: 16px;
+    background-color:#6726f2;
+    display: flex;
+    border-radius: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    box-shadow: -5px 5px 9px rgba(50, 50, 50, 0.637);
+}
+
+.seta , .seta2 , .seta3 {
+    margin: auto;
+    width: 30px;
+    transform: rotate(0deg);
+    transition: 0.3s;
+}
+
+.seta.active , .seta2.active , .seta3.active{
+    transform: rotate(180deg);
+    transition: 0.3s;
+}
+
+.hiddenBar, .hiddenBar2 , .hiddenBar3{
+    max-height: 0;
+    pointer-events: none;
+    transition: max-height 1s ease-in-out;
+    margin: 0 auto;
+    box-sizing: border-box;
+    overflow:hidden;
+}
+
+.hiddenBar.active , .hiddenBar2.active , .hiddenBar3.active {
+    margin: 0 auto;
+    box-sizing: border-box;
+    overflow:hidden;
+    max-height: 200px;
+    transition: max-height 1s ease-in-out;
+}
+
+.hiddenText {
+    width: 650px;
+    margin: 10px auto;
+    font-family: 'Raleway', sans-serif;
+    text-align: justify;
+    font-size: 16px;
+    text-indent: 0px;
+}
+
+div.meio {
+    text-align: center;
+}
+
+.nome {
+    margin-left: 107px;
+}
