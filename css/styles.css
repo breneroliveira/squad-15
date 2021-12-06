@@ -189,6 +189,10 @@ form input {
     margin-top: 240px;
 }
 
+main {
+    margin-bottom: 130px;
+}
+
 
 /* Create a sticky/fixed navbar */
 #navbar {

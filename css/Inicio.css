@@ -1,0 +1,53 @@
+.inicio{
+    margin: 350px 0 0 129px;
+    height: 560px;
+    color: #6929F2;
+}
+
+.bg_video{
+    position:absolute;
+    top: 110px;
+    display:block;
+	right: 0; 
+	bottom: 0;
+	min-width: 100%; 
+	min-height: 100%;
+	width: auto; 
+	height: auto; 
+	z-index: -1000;
+	background: url(../images/video.mp4) no-repeat;
+	background-size: cover; 
+}
+
+.inicio h1 {
+    font-size: 100px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    text-shadow: 3px 3px 4px rgba(105,41,242,0.3);
+}
+
+.inicio h2 {
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    text-shadow:3px 5px 4px rgba(105,41,242,0.3);
+}
+
+.inicioP {
+    margin-top: 120px;
+    background-color: white;
+    width: 800px;
+    height: 269px;
+    text-align: justify;
+    
+}
+
+.inicioP p {
+    vertical-align: middle;
+    color: black;
+    font-size: 18px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 40px;
+    line-height: 26px;
+}
+
