@@ -5,23 +5,12 @@ body {
 
 header {
     background: #6726f2;
-    padding: 20px 0;
+    padding: 250px 0;
+    position: relative;
     transition: 0.4s;
     width: 100%;
     margin: 0 auto;
     box-shadow: -5px 5px 9px rgba(50, 50, 50, 0.637);
-    position: fixed;
-   
-}
-
-ul {
-    width: 500px;
-    margin: auto;
-}
-
-.logo {
-    width: 10px;
-    margin:auto 170px auto -80px;
 }
 
 form {
@@ -85,8 +74,8 @@ footer {
 }
 
 .div-header {
-    display:flex;
-    width: 500px;
+    position: relative;
+    width: 900px;
     margin: 0 auto;
 }
 
@@ -103,7 +92,7 @@ footer {
 }
 
 nav {
-   display: flex;
+    position: absolute;
     top: 110px;
     right: 0;
 }
@@ -134,18 +123,3 @@ form input {
     margin: 15px auto;
     padding: 10px 25px;
 }
-
-.bg_video{
-	/*position: fixed;*/ 
-	right: 0; 
-	bottom: 0;
-	min-width: 100%; 
-	min-height: 100%;
-	width: auto; 
-	height: auto; 
-	z-index: -1000;
-	background: url(video.mp4) no-repeat;
-	background-size: cover; 
-}
-
-
