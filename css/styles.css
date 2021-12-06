@@ -50,6 +50,11 @@ button {
     background-color: #6726f2;
 }
 
+video {
+    text-align: center;
+    width: 100%;
+}
+
 button:hover {
     transition: 0.1s ease-in-out;
     background-color: white;
