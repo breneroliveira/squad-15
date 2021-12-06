@@ -186,10 +186,8 @@ form input {
 }
 
 .margem-topo {
-    margin-top: 270px;
+    margin-top: 240px;
 }
-
-
 
 
 /* Create a sticky/fixed navbar */
@@ -207,25 +205,31 @@ form input {
   
 /* Style the navbar links */
 #navbar a {
-    float: right;
     color: white;
     text-align: center;
     padding: 12px;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 23px;
     line-height: 25px;
     border-radius: 4px;
 }
 
 /* Style the logo */
 #navbar #logo {
+    float: left;
     font-size: 35px;
     font-weight: bold;
     transition: 0.4s;
+    margin-left: 70px;
 }
 
 /* Links on mouse-over */
 #navbar a:hover {
+    background-color: white;
+    color: #6726f2;
+}
+
+#navbar-right a:hover {
     background-color: white;
     color: #6726f2;
 }
@@ -245,11 +249,15 @@ form input {
     background-color: #6726f2;
     /*padding: 90px 10px;*/ /* Large padding which will shrink on scroll (using JS) */
     transition: 0.4s; /* Adds a transition effect when the padding is decreased */
-    position: fixed; /* Sticky/fixed navbar */
+    /*position: fixed;*/ /* Sticky/fixed navbar */
     /*width: 100%;*/
     /*top: 0;*/ /* At the top */
     z-index: 99;
     box-shadow: -5px 5px 9px #6726f2;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    margin-right: 30px;
+    margin-top: 10px;
 }
 
 /* Add responsiveness - on screens less than 580px wide, display the navbar vertically instead of horizontally */
