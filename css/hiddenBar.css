@@ -1,23 +1,30 @@
-.textBox{
-    padding: auto;
+.textBox {
+    text-align: center;
+    /*padding: auto;*/
     width: 700px;
-    margin:10px auto;
+    /*margin: 10px auto;*/
+    margin-top: 0px;
+    padding-top: 0px;
 }
 
 .modulo {
     margin:5px auto;
     width: 600px;
     color: whitesmoke;
-    font-size: 30px;
+    font-size: 20px;
     text-align: left;
     user-select: none;
 }
 
 .bar {
+    text-align: center;
     padding: 16px;
     background-color:#6726f2;
     display: flex;
     border-radius: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    box-shadow: -5px 5px 9px rgba(50, 50, 50, 0.637);
 }
 
 .seta , .seta2 , .seta3 {
@@ -43,7 +50,6 @@
 
 .hiddenBar.active , .hiddenBar2.active , .hiddenBar3.active {
     margin: 0 auto;
-    
     box-sizing: border-box;
     overflow:hidden;
     max-height: 200px;
@@ -54,5 +60,15 @@
     width: 650px;
     margin: 10px auto;
     font-family: 'Raleway', sans-serif;
-    text-align: left;
+    text-align: justify;
+    font-size: 16px;
+    text-indent: 0px;
+}
+
+div.meio {
+    text-align: center;
+}
+
+.nome {
+    margin-left: 107px;
 }
