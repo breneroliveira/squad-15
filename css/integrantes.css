@@ -1,0 +1,18 @@
+.circle {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: black; /*250px - imagem*/
+    margin: auto;
+}
+
+.integrantes {
+    width: 300px;
+    text-align: center;
+}
+
+#integrantes {
+    width: 50%;
+    margin: auto;
+    display: flex;
+}
